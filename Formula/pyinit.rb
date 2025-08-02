@@ -1,23 +1,23 @@
 class Pyinit < Formula
   desc "Interactive Python project scaffolding tool"
   homepage "https://github.com/Pradyothsp/pyinit"
-  version "0.0.3"
+  version "0.0.4"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Pradyothsp/pyinit/releases/download/v0.0.3/pyinit-darwin-amd64"
-      sha256 "7097cd171ee81a44ea8e616066a1743eaf689eac1e9754f4415a8b5780f2b94e"
+      url "https://github.com/Pradyothsp/pyinit/releases/download/v0.0.4/pyinit-darwin-amd64"
+      sha256 "7daeb57b2cf10b8c126e1579c94af45bff5a34ead398e8c96e3ea07e2dda4b53"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Pradyothsp/pyinit/releases/download/v0.0.3/pyinit-darwin-arm64"
-      sha256 "fc433c0ad5c32abbc208cc16c6271bced835a3a0aba8237776514d5d0d5b5dab"
+      url "https://github.com/Pradyothsp/pyinit/releases/download/v0.0.4/pyinit-darwin-arm64"
+      sha256 "b010a5efe668c8f3652ab37411a7728ee06b27c30bbec888c0eb7e261147386e"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/Pradyothsp/pyinit/releases/download/v0.0.3/pyinit-linux-amd64"
-      sha256 "ad5995ce99a0ed7e243f388c94a0e7a1754f88c17652f4bb51abb3a07c862a78"
+      url "https://github.com/Pradyothsp/pyinit/releases/download/v0.0.4/pyinit-linux-amd64"
+      sha256 "aa479cd2212556aa48943f855579a82be049c09d2033e6a6b9924d23f2f3773e"
     end
   end
 
